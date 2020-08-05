@@ -1,2 +1,9 @@
-# rest-api-blog-post
-RESTful services using node,express & mongodb
+# Rest-Api-blog-post
+<br />
+
+# Built with
+ - Node
+ - Express
+ - Mongoose
+ - MongoDB
+ 
