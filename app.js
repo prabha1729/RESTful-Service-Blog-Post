@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
 const mongoose = require('mongoose');
-const uri = "mongodb+srv://user:user@cluster0.zaqrq.mongodb.net/rest?retryWrites=true&w=majority";
+const uri = MONGO_DB_URI;
 const bodyParser = require('body-parser');
 const contactRouter = require('./controllers/contacts');
 
